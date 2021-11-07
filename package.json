@@ -8,20 +8,18 @@
     ],
     "exports": {
         ".": {
-            "require": "./dist/index.js",
-            "node": "./dist/index.js",
+            "types": "./dist/index.d.ts",
+            "module": "./dist/react-merge-refs-esm.js",
             "import": "./dist/react-merge-refs-esm.mjs",
-            "browser": "./dist/react-merge-refs-esm.mjs",
             "default": "./dist/react-merge-refs-esm.mjs"
         },
         "./package.json": "./package.json"
     },
-    "version": "1.1.8",
+    "version": "1.1.9",
     "author": "Greg Bergé <berge.greg@gmail.com>",
     "license": "MIT",
     "main": "dist/index.js",
-    "module": "dist/react-merge-refs.mjs",
-    "typings": "dist/index.d.ts",
+    "module": "dist/react-merge-refs.js",
     "repository": "github:gregberge/react-merge-refs",
     "funding": {
         "type": "github",
