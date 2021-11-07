@@ -12,11 +12,11 @@
             "node": "./dist/index.js",
             "import": "./dist/react-merge-refs-esm.mjs",
             "browser": "./dist/react-merge-refs-esm.mjs",
-            "default": "./dist/index.js"
+            "default": "./dist/react-merge-refs-esm.mjs"
         },
         "./package.json": "./package.json"
     },
-    "version": "1.1.6",
+    "version": "1.1.7",
     "author": "Greg Bergé <berge.greg@gmail.com>",
     "license": "MIT",
     "main": "dist/index.js",
