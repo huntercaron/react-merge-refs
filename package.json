@@ -11,7 +11,7 @@
             "types": "./dist/index.d.ts",
             "module": "./dist/react-merge-refs-esm.js",
             "import": "./dist/react-merge-refs-esm.mjs",
-            "default": "./dist/react-merge-refs-esm.mjs"
+            "default": "./dist/index.js"
         },
         "./package.json": "./package.json"
     },
@@ -31,7 +31,7 @@
         "release": "standard-version && conventional-github-releaser --preset angular",
         "start": "tsdx watch",
         "test": "tsdx test",
-        "build": "tsdx build --module esnext"
+        "build": "tsdx build"
     },
     "devDependencies": {
         "@testing-library/react": "^11.2.5",

@@ -1,4 +1,4 @@
 /*
-!/dist/**/*.{ts,js,map}
+!/dist/**/*.{ts,js,map,mjs}
 !/src/**/*.tsx?
 **/*.test.tsx
